@@ -1,0 +1,38 @@
+ /*HEADER*/
+ header {
+    display: flex;
+    padding: 0.5rem;
+    background-image: linear-gradient(to right, #009440, #009571, #009399, #008db1, #0085b8, #218cc0, #3392c7, #4199cf, #1db2e1, #00cbec, #00e3f1, #42fbef);
+    align-items:baseline;
+    justify-content: space-around;
+    
+    .header__logo {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 30%;
+    }
+    
+    .container {
+        max-width: 1200px ;
+        margin: 0 auto ;
+        display: flex;
+        flex-direction:row;
+        justify-content: center
+    }
+    
+    .menu {
+        display: flex;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+
+        .menu__link {
+            font-size: 1em;
+            padding: 1rem 1.2rem;
+        }
+        .menu__link:hover {
+            color: white;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.501));
+        }
+    }
+    
+}

@@ -1,3 +1,42 @@
+/* MISC*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+body {
+  background-image: url(../img/veil.png);
+  font-size: 100%;
+  display: block; }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  background-color: transparent; }
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem 1.2rem; }
+
+img {
+  width: 350px;
+  padding-top: 2rem;
+  margin: 1rem; }
+
+/* PARTIALS */
+footer {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-small;
+  display: flex;
+  color: black;
+  background-image: linear-gradient(to right, #009440, #009571, #009399, #008db1, #0085b8, #218cc0, #3392c7, #4199cf, #1db2e1, #00cbec, #00e3f1, #42fbef);
+  justify-content: space-around;
+  padding: 0.5rem; }
+
 /*HEADER*/
 header {
   display: flex;
@@ -25,3 +64,5 @@ header {
     header .menu .menu__link:hover {
       color: white;
       background: linear-gradient(to top, rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.501)); }
+
+/* VIEWS*/
