@@ -1,0 +1,38 @@
+/*GALLERY*/
+
+.gallery {
+    display: flex;
+}
+
+.gallery .gallery__img {
+    display: flex;
+    margin: 40px 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery .gallery__img:nth-of-type(1):hover {
+    transform: scale(1.1);
+ }
+
+ .gallery .gallery__img:nth-of-type(2):hover {
+    transform: scale(1.1);
+ }
+
+ .gallery .gallery__img:nth-of-type(3):hover {
+    transform: scale(1.1);
+ }
+
+p {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: baseline;
+    
+} 
+
+ #grilla {
+     display: grid;
+     grid-template-areas: 
+     "nav header header";
+ }
